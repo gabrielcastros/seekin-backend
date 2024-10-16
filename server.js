@@ -48,7 +48,7 @@ app.get(`/findPlaylistWithTrack`, async (req, res) => {
             params: {
                 representation: 'mini',
                 client_id: clientId,
-                limit: 10,
+                limit: 100,
                 offset: offset,
                 linked_partitioning: 1,
                 app_version: 1728896408,
